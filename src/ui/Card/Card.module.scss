@@ -1,0 +1,7 @@
+@import '/src/styles/variables';
+
+.container {
+	background-color: var(--bg-color-primary);
+	border-radius: $border-rad-heavy;
+	padding: 1em;
+}

@@ -1,0 +1,18 @@
+@import 'normalize';
+@import 'variables';
+@import 'themes';
+@import 'default';
+
+body {
+	background-color: var(--bg-color-secondary);
+	color: var(--color-text-primary);
+	font-family: 'Open Sans', Arial, sans-serif;
+	line-height: 1.4;
+	min-width: 320px;
+}
+
+#root {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}

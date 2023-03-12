@@ -1,0 +1,9 @@
+.main {
+	display: grid;
+	grid-template-columns: 240px 1fr;
+	flex-grow: 1;
+}
+
+.content {
+	padding: 2em 1em;
+}
