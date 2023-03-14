@@ -5,3 +5,9 @@ export const darkTheme = createTheme({
 		mode: 'dark',
 	},
 });
+
+
+// createMuiTheme -> for
+// npm install @material-ui/core @material-ui/icons
+
+
