@@ -1,4 +1,4 @@
-export interface BusinessCard {
+export interface Business {
 	name: string;
 	street: string;
 	house: string;

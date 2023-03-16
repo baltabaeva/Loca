@@ -9,7 +9,6 @@ const mockedTags: Tag[] = [
 	{ id: '1', name: 'Тег 1' },
 	{ id: '2', name: 'Тег 2' },
 	{ id: '3', name: 'Тег 3' },
-
 ];
 
 export default function CreateEventForm() {
@@ -40,7 +39,7 @@ export default function CreateEventForm() {
 				<Input label="Время начала" name="time_start" required shrink type="time" />
 				<Input label="Время окончания" name="time_end" required shrink type="time" />
 				<Select defaultValue={[]} multiple name="tags" options={tagsOptions} />
-				<Button loading={creating} type="submit">
+				<Button loading={creating} type="submit" >
 					Отправить
 				</Button>
 			</Form>
